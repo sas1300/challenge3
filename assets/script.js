@@ -1,5 +1,18 @@
 // Assignment code here
 
+
+
+//Create arrays
+var lowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+
+var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+
+var numbers = ["0","1","2","3","4","5","6","7","8","9"];
+
+var special = ["!","@","#","$","%","^","&","*","(",")","_","+","?","=","~","-","{","}","[","]","/",":"];
+
+
+
 //prompt for length of password Must be between 8 - 128 characters.
 
 var pwLength = window.prompt("Please select the character length of your password");
@@ -10,20 +23,14 @@ var pwLength = window.prompt("Please select the character length of your passwor
 
 //prompt for lowercase
 
-var lowerCase = window.prompt( " Would you like to include 'lowercase' letters in your password? ");
+var lowerCaseChar = window.prompt( " Would you like to include 'lowercase' letters in your password? ");
 
-    //If yes (true), 
-        if (lowerCase = ) {}
-
-    //If no, 
-      else () {}
-
-
+   
 
 
 //prompt for uppercase
 
-  var upperCase = window.prompt( " Would you like to include 'UPPERCASE' letters in your password? ");
+  var upperCaseChar = window.prompt( " Would you like to include 'UPPERCASE' letters in your password? ");
 
     //If yes, 
 
@@ -33,7 +40,7 @@ var lowerCase = window.prompt( " Would you like to include 'lowercase' letters i
 
 //prompt for numeric
 
-  var numbers = window.prompt( " Would you like to include 'Numbers' in your password? ");
+  var numbersChar = window.prompt( " Would you like to include 'Numbers' in your password? ");
 
     //If yes, 
 

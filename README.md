@@ -8,9 +8,9 @@ For this challenge we were instructed to create a password generator that an emp
 ## How
 To create this password generator we used the following:
 
-*HTML
-*CSS
-*JavaScript
+* HTML
+* CSS
+* JavaScript
 
 
 
