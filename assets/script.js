@@ -17,54 +17,64 @@ var special = ["!","@","#","$","%","^","&","*","(",")","_","+","?","=","~","-","
 
 var pwLength = window.prompt("Please select the character length of your password");
   console.log(pwLength);
+
+  //Store input from user
  
   
 
 
 //prompt for lowercase
 
-var lowerCaseChar = window.prompt( " Would you like to include 'lowercase' letters in your password? ");
+var lowerCaseChar = window.prompt( " Would you like to include 'lowercase' letters in your password? Type YES or NO");
+ if (lowerCaseChar === "yes" || lowerCaseChar === "YES") {
+  
 
+ }
+
+  //Store input from user
    
 
 
 //prompt for uppercase
 
-  var upperCaseChar = window.prompt( " Would you like to include 'UPPERCASE' letters in your password? ");
+  var upperCaseChar = window.prompt( " Would you like to include 'UPPERCASE' letters in your password? Type YES or NO");
 
     //If yes, 
 
     //If no, 
+
+    //Store input from user
 
 
 
 //prompt for numeric
 
-  var numbersChar = window.prompt( " Would you like to include 'Numbers' in your password? ");
+  var numbersChar = window.prompt( " Would you like to include 'Numbers' in your password? Type YES or NO");
 
     //If yes, 
 
     //If no, 
+
+    //store input from user
 
 
 //prompt for special characters
 
-  var specChar = window.prompt( " Would you like to include 'Special Characters' in your password? ");
+  var specChar = window.prompt( " Would you like to include 'Special Characters' in your password? Type YES or NO ");
 
     //If yes, 
 
     //If no, 
+
+    //store input from user
 
     
 
 //If at leaset one input is valiated then generate random number 
 
-  // Log number function????   var logNums = function(num) {};  
-  //Example: var logNums = function(num) {
-  //         for (var i = 1; i <= num; i++) {
-    ///      console.log(i);
-  //         }
-//           };
+// if no inputs are validated then prompt for window.alert to select at least on character type
+
+  
 
 
 

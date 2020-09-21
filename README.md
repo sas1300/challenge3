@@ -4,6 +4,7 @@
 For this challenge we were instructed to create a password generator that an employee could use to generate a random password based on information they would select.  
 
 ## Why
+This type of password generator has real world functions for businesses that may need to frequently change passwords and must also have higher security type password.
 
 ## How
 To create this password generator we used the following:
@@ -18,3 +19,8 @@ To create this password generator we used the following:
 
 
 **Link to github repository:**  https://github.com/sas1300/challenge3.git 
+
+# Screenshots
+
+![Character Prompt](./assets/images/charprompt.jpg)
+
