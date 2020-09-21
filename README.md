@@ -16,9 +16,11 @@ To create this password generator we used the following:
 
 
 
-
+## Links
 
 **Link to github repository:**  https://github.com/sas1300/challenge3.git 
+
+**URL:**  https://sas1300.github.io/challenge3/
 
 # Screenshots
 
