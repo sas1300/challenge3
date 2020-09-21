@@ -1,4 +1,4 @@
-# Challenge 3:  *Create a Randoom Password Generator*
+# Challenge 3:  *Create a Random Password Generator*
 
 ## What
 For this challenge we were instructed to create a password generator that an employee could use to generate a random password based on information they would select.  
@@ -7,6 +7,7 @@ For this challenge we were instructed to create a password generator that an emp
 
 ## How
 To create this password generator we used the following:
+
 *HTML
 *CSS
 *JavaScript

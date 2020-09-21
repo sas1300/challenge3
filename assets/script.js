@@ -1,38 +1,48 @@
 // Assignment code here
 
-//prompt for length of password
+//prompt for length of password Must be between 8 - 128 characters.
 
-  //Please select the length of your password.  Must be between 8 - 128 characters.
-
-var passwordLength = window.prompt("Please select the length of your password");
-
+var pwLength = window.prompt("Please select the character length of your password");
+  console.log(pwLength);
  
-
+  
 
 
 //prompt for lowercase
-  //Would you like to enclude "lowercase" letters in your password?
 
-    //If yes, 
+var lowerCase = window.prompt( " Would you like to include 'lowercase' letters in your password? ");
+
+    //If yes (true), 
+        if (lowerCase = ) {}
 
     //If no, 
+      else () {}
+
+
+
 
 //prompt for uppercase
-  //Would you like to include "UPPERCASE" letters in your password?
+
+  var upperCase = window.prompt( " Would you like to include 'UPPERCASE' letters in your password? ");
 
     //If yes, 
 
     //If no, 
+
+
 
 //prompt for numeric
-  //would you like to include "numbers" in your password?
+
+  var numbers = window.prompt( " Would you like to include 'Numbers' in your password? ");
 
     //If yes, 
 
     //If no, 
 
+
 //prompt for special characters
-  //Would you like to include "Special Characters" in your password?
+
+  var specChar = window.prompt( " Would you like to include 'Special Characters' in your password? ");
 
     //If yes, 
 
@@ -53,13 +63,10 @@ var passwordLength = window.prompt("Please select the length of your password");
 
     //display password in window alert.
 
+    console.log(value);
+
 //If at least one input is not validated, then give error window alert You must select at least one character type for your password.
   //character prompts repeat
-
-
-
-
-
 
 
 
