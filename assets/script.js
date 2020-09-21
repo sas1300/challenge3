@@ -15,12 +15,14 @@ var special = ["!","@","#","$","%","^","&","*","(",")","_","+","?","=","~","-","
 
 //prompt for length of password Must be between 8 - 128 characters.
 
-var pwLength = window.prompt("Please select the character length of your password");
+var pwLength = window.prompt("Please select the character length of your password.  Must be between 8 -128 characters.");
   console.log(pwLength);
+  
+  //If less then 8 entered, promt window alert to 
 
   //Store input from user
  
-  
+  return;
 
 
 //prompt for lowercase
@@ -33,13 +35,13 @@ var lowerCaseChar = window.prompt( " Would you like to include 'lowercase' lette
 
   //Store input from user
    
-
+  return;
 
 //prompt for uppercase
 
   var upperCaseChar = window.prompt( " Would you like to include 'UPPERCASE' letters in your password? Type YES or NO");
 
-    //If yes, 
+    //If yes (true), 
 
     //If no, 
 
